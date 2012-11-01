@@ -51,6 +51,7 @@ grails.project.dependency.resolution = {
         runtime ":cache-headers:1.1.5"
         runtime ":coffeescript-resources:0.3.2"
         runtime ":handlebars-resources:0.3.1"
+        runtime ":closure-compiler:0.4"
 
         build ":tomcat:$grailsVersion"
 

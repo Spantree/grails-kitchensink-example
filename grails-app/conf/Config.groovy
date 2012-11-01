@@ -62,6 +62,8 @@ grails.hibernate.cache.queries = false
 environments {
     development {
         grails.logging.jul.usebridge = true
+        grails.resources.mappers.hashandcache.excludes = ['**/**']
+        grails.resources.mappers.closurecompiler.excludes = ['**/**']
     }
     production {
         grails.logging.jul.usebridge = false
