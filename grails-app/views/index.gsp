@@ -3,7 +3,7 @@
 	<head>
 		<meta name="layout" content="main"/>
 		<title>Welcome to Grails</title>
-		<r:require modules="bootstrap"/>
+		<r:require modules="customBootstrap"/>
 	</head>
 	<body>
 		<div class="container">
