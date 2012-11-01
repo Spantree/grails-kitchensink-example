@@ -91,3 +91,4 @@ log4j = {
 }
 
 grails.plugins.twitterbootstrap.customDir = 'less/bootstrap'
+grails.resources.mappers.handlebars.templatesRoot = 'handlebars'

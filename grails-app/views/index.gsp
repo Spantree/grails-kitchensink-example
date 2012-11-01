@@ -17,5 +17,8 @@
 				<p><a id="say-hello-button" class="btn btn-primary btn-large">Say hello &raquo;</a></p>
 			</div>
 		</div>
+		<div id="hello-modal" class="modal hide fade">
+  		</div>
+</div>
 	</body>
 </html>

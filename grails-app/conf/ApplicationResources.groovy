@@ -9,6 +9,8 @@ modules = {
     }
 
     hello {
+    	dependsOn 'handlebars_runtime'
     	resource url: 'coffee/hello.coffee'
+    	resource url: 'handlebars/hello/modal.handlebars', attrs: [type: 'js']
     }
 }
