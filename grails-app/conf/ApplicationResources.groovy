@@ -7,4 +7,8 @@ modules = {
     	dependsOn 'bootstrap'
 		resource url: 'less/customBootstrap.less', attrs: [rel: "stylesheet/less", type:'css']
     }
+
+    hello {
+    	resource url: 'coffee/hello.coffee'
+    }
 }
