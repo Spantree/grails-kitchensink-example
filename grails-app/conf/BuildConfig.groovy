@@ -42,12 +42,15 @@ grails.project.dependency.resolution = {
         runtime ":jquery:1.7.2"
         runtime ":resources:1.1.6"
 
+        runtime(":twitter-bootstrap:2.1.1") { excludes 'svn' }
+        runtime(":less-resources:1.3.0.2") { excludes 'svn' }
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
         //runtime ":cached-resources:1.0"
         //runtime ":yui-minify-resources:0.1.4"
 
         build ":tomcat:$grailsVersion"
+
 
         runtime ":database-migration:1.1"
 
