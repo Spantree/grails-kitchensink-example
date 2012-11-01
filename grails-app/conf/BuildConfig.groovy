@@ -40,7 +40,7 @@ grails.project.dependency.resolution = {
     plugins {
         runtime ":hibernate:$grailsVersion"
         runtime ":jquery:1.7.2"
-        runtime ":resources:1.1.6"
+        runtime ":resources:1.2-RC1"
 
         runtime(":twitter-bootstrap:2.1.1") { excludes 'svn' }
         runtime(":less-resources:1.3.0.2") { excludes 'svn' }
@@ -50,6 +50,7 @@ grails.project.dependency.resolution = {
         // runtime ":yui-minify-resources:0.1.4"
         runtime ":cache-headers:1.1.5"
         runtime ":coffeescript-resources:0.3.2"
+        runtime ":handlebars-resources:0.3.1"
 
         build ":tomcat:$grailsVersion"
 
