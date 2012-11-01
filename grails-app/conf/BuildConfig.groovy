@@ -45,9 +45,10 @@ grails.project.dependency.resolution = {
         runtime(":twitter-bootstrap:2.1.1") { excludes 'svn' }
         runtime(":less-resources:1.3.0.2") { excludes 'svn' }
         // Uncomment these (or add new ones) to enable additional resources capabilities
-        //runtime ":zipped-resources:1.0"
-        //runtime ":cached-resources:1.0"
-        //runtime ":yui-minify-resources:0.1.4"
+        runtime ":zipped-resources:1.0"
+        runtime ":cached-resources:1.0"
+        // runtime ":yui-minify-resources:0.1.4"
+        runtime ":cache-headers:1.1.5"
 
         build ":tomcat:$grailsVersion"
 
